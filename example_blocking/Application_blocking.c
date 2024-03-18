@@ -141,6 +141,8 @@ void Application_loop(Application* app, HAL* hal)
 
                 Graphics_setForegroundColor(&app->gfx.context, colormix(r,g,b));
                 Graphics_drawLineH(&app->gfx.context, 0, 127, (frameIndex+frameOffset)%128);
+
+
             }
 
         }
